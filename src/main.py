@@ -1,7 +1,5 @@
-import data.database as db
-
+import presenter.plotCreator as pc
 def main(): 
-    print( db.DataManager.getDataExcel())
-
+    pc.plotc.plotfun()
 
 main()
